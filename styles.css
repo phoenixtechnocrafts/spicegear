@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	padding: 0;
+	padding: 0 1rem;
 	box-sizing: border-box;
 	background-color: aliceblue;
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -9,6 +9,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	text-align: justify;
 }
 
 img[alt="We are under Construction"] {
