@@ -1,0 +1,25 @@
+/* custom classes */
+.list-unstyled {
+	padding-left: 0;
+	list-style: none;
+}
+/* custom classes end*/
+
+header {
+	/* max-height: 100vh; */
+	/* height: 100vh; */
+}
+
+.brand-name {
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+.services-list-group {
+	max-width: min(600px, 80%);
+}
+
+.services-list > li {
+	line-height: 2;
+	font-size: 1.2rem;
+}
