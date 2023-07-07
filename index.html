@@ -513,9 +513,9 @@
                   <h4>Get WhatsApp Updates</h4>
                   <p>Never miss out on the latest releases, exclusive offers, and industry insights!
                     Enter your WhatsApp number below to receive timely updates on your mobile.
-                  <form action="" method="post">
-                    <input type="tel" name="WhatsApp"><input type="submit" value="Subscribe">
-                  </form>
+                    <a href="https://wa.me/919307836267?message=Hi" target="_blank"
+                      class="btn btn-success mt-2 text-decoration-none">Say Hi
+                      On WhatsApp</a>
                 </div>
 
               </div>
@@ -560,7 +560,8 @@
 
               <h4>Send us a message</h4>
               <p>Our representative will get in touch with you shortly after you submit this form</p>
-              <form action="" method="post" role="form" class="contactForm">
+              <form id="contact-us-form" method="post" role="form" class="contactForm">
+                <input type="hidden" name="access_key" value="e5128bea-0ff7-4190-ba2e-d4164a283897">
                 <div class="form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
                     data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
@@ -621,6 +622,7 @@
   <script src="lib/lightbox/js/lightbox.min.js"></script>
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
+  <script src="https://web3forms.com/client/script.js" async defer></script>
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
